@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(99, 99, 99);
+  }
+  #display {
+    width: 80%;
+    text-align: left;
+    padding-left: 6px;
+    background-color: white;
+    color: black;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    color: red;
+  }
+  table, td {
+    border-collapse: collapse;
+    width: 500px;
+    height: 75px;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .Calculator{
+      width: 500px;
+      position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -40%);
+      box-shadow: 2px 8px 16px black;
+  }
+  #ac{
+    background-color: #00cc99;
+  }
+  .op{
+    background-color: grey;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+
+   
+
+   

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="Calculator">
+    <table>
+      <tr>
+        <td colspan="3" id="display"><h3 id="display"></h3></td>
+        <td onclick="clearDisplay()" id="ac">AC</td>
+    </tr>
+      <tr>
+        <td onclick="appendToDisplay('9')">9</td>
+        <td onclick="appendToDisplay('8')">8</td>
+        <td onclick="appendToDisplay('7')">7</td>
+        <td onclick="appendToDisplay('+')" class="op">+</td>
+      </tr>
+      <tr>
+        <td onclick="appendToDisplay('4')">4</td>
+        <td onclick="appendToDisplay('5')">5</td>
+        <td onclick="appendToDisplay('6')">6</td>
+        <td onclick="appendToDisplay('-')" class="op">-</td>
+      </tr>
+      <tr>
+        <td onclick="appendToDisplay('1')">1</td>
+        <td onclick="appendToDisplay('2')">2</td>
+        <td onclick="appendToDisplay('3')">3</td>
+        <td onclick="appendToDisplay('/')" class="op">÷</td>
+      </tr>
+      <tr>
+        <td onclick="appendToDisplay('.')">.</td>
+        <td onclick="appendToDisplay('0')">0</td>
+        <td onclick="calculateResult()">=</td>
+        <td onclick="appendToDisplay('*')" class="op">x</td>
+      </tr>
+    </table>
+  </div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>

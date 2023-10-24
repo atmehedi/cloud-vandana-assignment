@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(13, 199, 174);
+}
+h1{
+    margin-left: 13%;
+    color: white;
+    font-weight: bold;
+}
+.box{
+    margin-left: 30%;
+}
+.form-body{
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding: 50px;
+    border: 1px solid black;
+    box-shadow: 4px 8px 16px black;
+}
+table{
+    width: 100%;
+    margin: 10px;
+    padding-top: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.namel{
+    font-size: 18px;
+    margin: auto;
+}
+.name{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+}
+label{
+    font-size: 18px;
+    margin-left: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;  
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+select{
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;  
+    margin-bottom: 20px;
+}
+.gni{
+    margin-left: 20px;
+    margin-bottom: auto;
+    width: 10px;
+    height: 10px;
+}
+#gn{
+    font-size: 14px;
+    margin-left: auto;
+}
+div{
+ margin-top: 10px;
+}
+#submit{
+    background-color: rgb(13, 199, 174);
+    color: white;
+}
+#reset{
+    background-color: red;
+    color: white;
+}

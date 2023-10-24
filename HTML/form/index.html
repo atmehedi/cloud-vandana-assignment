@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Customer Survey Form</h1>
+        <div class="form-body">
+            <form action="" method="post" id="Survey" onsubmit="submitForm()">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="firstname" class="namel">First Name</label><br>
+                            <input type="text" name="firstname" class="name" placeholder="First name" required>
+                        </td>
+                        <td>
+                            <label for="lastname" class="namel">Last Name</label><br>
+                            <input type="text" name="lastnname" class="name" placeholder="Last name" required>
+                        </td>
+                    </tr>
+                </table>
+                <div class="dob">
+                <label for="dob">What is your date of Birth ?</label><br>
+                <input type="date" required><br>   
+                </div>
+
+                <div class="country">
+                    <label for="country">Please select your country .</label><br>
+                <select name="country" id="country" required >
+                    <option value="India">India</option>
+                    <option value="US">US</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Sri lanka">Sri Lanka</option>
+                    <option value="England">England</option>
+                </select><br>
+                </div>
+                
+                <div class="gender">
+                <label for="Gander">Please select Your Gender .</label><br>
+                <input type="radio" id="male" name="gender" value="Male" class="gni" required>
+                <label for="male" id="gn">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female" class="gni">
+                <label for="female" id="gn">Female</label><br>
+                </div>
+               
+                <div class="proffesion">
+                <label for="profession">Please enter your profession .</label><br>
+                <input type="text" placeholder="Profession" required>
+                </div>
+                <div class="email">
+                    <label for="email">Please enter your valid email address .</label><br>
+                    <input type="email" placeholder="example@domain.com" required>
+                </div>
+                <div class="phone">
+                    <label for="mobile">Please enter your 10 digit mobile number .</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required placeholder="0987654321">
+                    <small>Format: 0987654321</small><br>
+                </div>
+                <input type="submit" id="submit" value="Submit">
+                <input type="reset" value="Reset" id="reset">
+
+            </form>
+        </div>
+
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
